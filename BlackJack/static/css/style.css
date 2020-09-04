@@ -1,0 +1,85 @@
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5 {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.flex-box-container-1,
+.flex-box-container-2,
+.flex-box-rps,
+.flex-box-pick-color,
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-box-container-1 div {
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+
+/*************challenge 2*********/
+
+.flex-box-container-2 img {
+    margin: 5px;
+    width: 30%;
+    height: 30%;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+
+.flex-box-rps img:hover {
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+
+
+/*************challenge 5*********/
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2 {
+    background: url('/static/images/green-poker-table-background.jpg') center;
+    color: #ffffff;
+}
+
+.flex-blackjack-row-1 div {
+    border: 1px solid black;
+    padding: 10px;
+    height: 350px;
+    text-align: center;
+    flex: 1;
+}
+
+.flex-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 div {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table,
+th,
+td {
+    padding: 5px;
+    border: 1px solid black;
+}
